@@ -1,0 +1,17 @@
+How to access the nginx webpage?
+ -> Location: cd /usr/share/nginx/html/
+ -> Create page: sudo vi index.html
+
+How to the nginx configuration?
+ -> Location: cd /usr/share/nginx/html/
+ -> Access: vim /etc/nginx/nginx.conf
+
+
+How to troubleshoot the server?
+ -> Check Status       : systemctl status <server-name<
+ -> Start service      : systemctl start <server-name>
+ -> Stop service       : systemctl stop <service-name>
+ -> Enable Service     : systemctl enable <service-name>
+ -> Check Port status  : netstat -lntp
+
+
