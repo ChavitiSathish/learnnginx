@@ -14,4 +14,16 @@ How to troubleshoot the server?
  -> Enable Service     : systemctl enable <service-name>
  -> Check Port status  : netstat -lntp
 
+How to check the log of operations?
+ -> Check Error Log    : vim /var/log/messages
+
+How to check the script of files in raghu project ?
+ -> Check location     : type disable-auto-shutdown
+ -> Cat Location       : cat <location>
+
+
+
+
+
+
 
